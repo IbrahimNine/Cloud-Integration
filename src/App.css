@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap");
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #0f1113;
+}
+.container {
+  color: white;
+}
+.navBar {
+  width: 90vw;
+}
+.navbar-brand {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+}
+.options-Container {
+  display: flex;
+  justify-content: center;
+  gap: 8%;
+  width: 20vw;
+}
+.options-Container a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+.options-Container a:hover {
+  background-color: rgb(57, 57, 61);
+}
+
+.Home {
+  background-image: linear-gradient(
+      to top,
+      rgb(17, 17, 17) 20%,
+      transparent 100%
+    ),
+    url("https://images.squarespace-cdn.com/content/v1/5f0df38c634e797196d51e6c/1682291775578-YER3R22F4U86Z3VYC4BN/Ancient+Babylonian+and+Mesopotamian+Archeological+Sites+You+Can+Visit+in+Iraq.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  margin-bottom: 250px;
+}
+.introduction {
+  width: 90vw;
+  margin: 6vh auto;
+  padding: 1% 2%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+#loadingGif {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.Map {
+  width: 90vw;
+  height: 70vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 250px;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.NoLocation {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(26, 43, 43);
+  background-color: rgba(0, 0, 0, 0.596);
+  text-align: center;
+}
+.NoLocation div {
+  background-color: white;
+  padding: 5vh 2vw;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.About {
+  width: 90vw;
+  margin: 5vh auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5vh;
+}
+.About div {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.Footer {
+  width: inherit;
+  box-sizing: border-box;
+}
